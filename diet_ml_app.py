@@ -38,7 +38,6 @@ if st.button("Get My Diet Plan"):
     predicted_calories = int(model.predict(input_data)[0])
     st.success(f"🔥 Your recommended daily calorie intake: **{predicted_calories} kcal**")
 
-    # -----------------------------------
     # 1️⃣ Food Suggestions
     st.header("🍱 Suggested Meals")
 
@@ -52,7 +51,7 @@ if st.button("Get My Diet Plan"):
     for food, kcal in selected_foods:
         st.write(f"🍴 {food} – {kcal} kcal")
 
-    # -----------------------------------
+    
     # 2️⃣ BMI & Visualization
     st.header("📊 Your BMI Report")
 
