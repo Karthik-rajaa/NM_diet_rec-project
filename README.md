@@ -20,7 +20,6 @@ This is a simple AI and ML-powered web application built using **Python** and **
 ## 🛠️ Installation
 
 1. Clone this repository:
-```bash
 git clone https://github.com/your-username/diet-ml-app.git
 cd diet-ml-app
 
@@ -31,9 +30,6 @@ Run the Streamlit app:
 streamlit run diet_ml_app.py
 
 📁 **Project Structure**
-bash
-Copy
-Edit
 diet-ml-app/
 ├── diet_ml_app.py              # Main Streamlit app
 ├── calorie_predictor_model.joblib  # Trained ML model
